@@ -1,0 +1,105 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #ededed;
+  width: 100%;
+  font-size: 0.12rem;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: 0.4rem;
+  background: #fff; }
+  .header h1 {
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    text-align: center; }
+
+.content {
+  width: 100%;
+  flex: 1; }
+
+.banner {
+  height: 1.09rem; }
+
+.dl-nav {
+  padding: 0.1rem 0;
+  background: #fff;
+  text-align: center; }
+  .dl-nav > dt {
+    width: 0.45rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    background: #ff6666;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 100%;
+    font-size: 0.25rem; }
+  .dl-nav .dt-se {
+    background: #ff9d3e; }
+  .dl-nav .dt-fou {
+    background: #4183ff; }
+  .dl-nav > dd {
+    margin-top: 0.05rem; }
+
+.logo {
+  width: 100%;
+  background: #fff; }
+  .logo > img {
+    width: 100%;
+    height: 100%; }
+  .logo > h3 {
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    margin-left: 0.1rem; }
+  .logo .carUser {
+    background-color: #fff;
+    margin-bottom: 0.1rem; }
+    .logo .carUser h2 {
+      font-size: 0.16rem;
+      line-height: 0.4rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-bottom: 1px solid #F2F2F2; }
+    .logo .carUser .oil li {
+      display: -webkit-flex;
+      border-bottom: 1px solid #F2F2F2; }
+      .logo .carUser .oil li dl {
+        -webkit-flex: 1;
+        text-align: center;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem; }
+        .logo .carUser .oil li dl dt {
+          padding-top: 0.05rem;
+          padding-bottom: 0.05rem; }
+          .logo .carUser .oil li dl dt i.fa {
+            font-size: 0.24rem;
+            color: #F75757; }
+        .logo .carUser .oil li dl dd {
+          padding-top: 0.05rem; }
+      .logo .carUser .oil li:nth-of-type(1) dl:nth-of-type(2) i.fa {
+        color: #D3EDE3; }
+      .logo .carUser .oil li:nth-of-type(1) dl:nth-of-type(3) i.fa {
+        color: #7760EF; }
+      .logo .carUser .oil li:nth-of-type(1) dl:nth-of-type(4) i.fa {
+        color: #53C09B; }
+      .logo .carUser .oil li:nth-of-type(2) dl:nth-of-type(1) i.fa {
+        color: #FFDDCB; }
+      .logo .carUser .oil li:nth-of-type(2) dl:nth-of-type(2) i.fa {
+        color: #C6DAFF; }
+      .logo .carUser .oil li:nth-of-type(2) dl:nth-of-type(3) i.fa {
+        color: #FF5408; }
+      .logo .carUser .oil li:nth-of-type(2) dl:nth-of-type(4) i.fa {
+        color: #E94645; }
+      .logo .carUser .oil li:nth-of-type(3) dl:nth-of-type(1) i.fa {
+        color: #C6DAFF; }
+      .logo .carUser .oil li:nth-of-type(3) dl:nth-of-type(2) i.fa {
+        color: #A1DDC7; }
+      .logo .carUser .oil li:nth-of-type(3) dl:nth-of-type(3) i.fa {
+        color: #D9E5FF; }
+      .logo .carUser .oil li:nth-of-type(3) dl:nth-of-type(4) i.fa {
+        color: #D9D9D9; }
+
+/*# sourceMappingURL=style.css.map */
